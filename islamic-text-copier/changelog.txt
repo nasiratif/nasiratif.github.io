@@ -1,3 +1,7 @@
+Version 2.3.4 -
+
+- Updated to use the new ITC website to check for updates and used as the homepage.
+
 Version 2.3.3 -
 
 - Fixed a bug where copying As-Salamu Alaikum using the hotkey would return Barakallahu Feek instead.
