@@ -32,6 +32,10 @@
 <h3 id="date">29 Muḥarram '44 — Category</h3>
 <h1 title="Desc!" id="title">Article Title</h1>
 
+<p class="no-line-height"><b>Author: </b>Author</p>
+<p class="no-line-height"><b>Publisher: </b>Publisher</p>
+<p class="no-line-height"><b>Pages: </b>000</p>
+
 <div class="body-content">
 
 <img alt="Bismillāhir-Raḥmānir-Raḥīm" class="bismillah" src="/img/bismillah.png">
