@@ -1,5 +1,5 @@
 body {
- background-color: #2c2c2c; 
+ background-color: #2c2c2c;
  background-image: url(/img/bg.jpg);
  background-repeat: repeat;
  background-position: center;
@@ -28,9 +28,9 @@ body {
  0% {
   opacity: 0;
  }
- 
+
  100% {
-  opacity: 1; 
+  opacity: 1;
  }
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .logo { /* original width 400px */
- width: 520px; 
+ width: 520px;
  transition: 0.3s;
  border-radius: 10px;
  box-shadow: 0 3px 3px 3px #00000066;
@@ -73,11 +73,11 @@ body {
 }
 
 .nav a:hover {
- color: #f3f3f3; 
+ color: #f3f3f3;
 }
 
 .nav a#current {
- color: #f3f3f3;  
+ color: #f3f3f3;
 }
 
 .article-box {
@@ -121,7 +121,7 @@ body {
 }
 
 .img-link {
- transition: 0.3s; 
+ transition: 0.3s;
 }
 
 .img-link:hover {
@@ -135,11 +135,11 @@ body {
  margin: 0 auto;
  box-sizing: border-box;
  padding-left: 1rem;
- padding-right: 1rem; 
+ padding-right: 1rem;
 }
 
 .body-content h2 {
- text-align: center; 
+ text-align: center;
 }
 
 #date {
@@ -219,7 +219,7 @@ body {
 }
 
 .no-line-height {
- line-height: 20px; 
+ line-height: 20px;
 }
 
 #footer {
@@ -238,7 +238,7 @@ body {
 
 .bismillah {
  display: block;
- width: 355px; 
+ width: 355px;
 }
 
 audio {
@@ -252,7 +252,7 @@ a {
 }
 
 div {
- max-width: 100%; 
+ max-width: 100%;
 }
 
 img {
@@ -261,7 +261,7 @@ img {
 }
 
 ::-webkit-scrollbar {
- width: 15px; 
+ width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -281,26 +281,76 @@ img {
   margin: auto;
   display: block;
  }
- 
+
  .nav {
   text-align: center;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
  }
- 
+
  .nav a {
   display: inline-block;
   float: none;
  }
- 
+
  .article-box {
-  display: block; 
+  display: block;
   margin-top: 0;
  }
- 
+
  .article {
-  margin: auto; 
+  margin: auto;
   width: 315px;
   box-sizing: border-box;
  }
- 
+
+}
+
+/* New Contact form styling */
+.contact-form {
+ font-family: "default-font";
+ width: 625px;
+ margin: auto;
+ padding-top: 25px;
+ box-sizing: border-box;
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+
+.contact-form
+.contact-form h2 {
+ text-align: center;
+}
+
+/* Beautify form with border radius */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+ padding: 12px;
+ width: 100%;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+ transition: 0.3s;
+ font-family: "font-2";
+ background-color: #16a1ec;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+/* Hover over submit button should change the color to the background color and the font to "default-font" */
+.contact-form input[type="submit"]:hover {
+ background-color: #2c2c2c;
+ transition: 0.3s;
+ color: #f3f3f3;
+ font-family: "default-font";
+ font-size: large;
 }

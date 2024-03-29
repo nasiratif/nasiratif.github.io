@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Nāṣir ʿAṭif ناصر عاطف">
+<meta property="og:description" content="An islāmic website aimed towards benefiting Muslims across the globe.">
+<meta property="og:image" content="/img/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://nasiratif.net/">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<link rel="shortcut icon" type="x-icon" href="/favicon.ico">
+<title>Contact</title>
+</head>
+<body>
+
+
+<div class="head"><a href="/"><img class="logo" src="/img/logo-text.png"></a>
+<div class="nav">
+<a href="/">Home</a>
+<a href="/about/">About</a>
+<a id ="current" href="/contact/">Contact</a>
+<a href="/links/">Links</a>
+<a href="/categories/dawah/">Da‘wah</a>
+<a href="/categories/quick-benefits/">Quick Benefits</a>
+<a href="/categories/reviews/">Reviews</a>
+<a href="/categories/biographies/">Biographies</a>
+<a href="/categories/fatawa/">Fatāwā</a>
+<a href="/blog/">All Posts</a>
+</div>
+</div>
+
+<!-- Make a Contact form for mistakes, corrections, and suggestions in the form -->
+<!-- Use Formspark -->
+<!-- https://dashboard.formspark.io/sign-up -->
+<!-- Set this as your form action URL: https://submit-form.com/your-form-id -->
+<form class="contact-form" action="FORMSPARK_FORM_ACTION_URL">
+<h1>Contact me</h1>
+<p>If you have find any mistakes, or have some suggestions, please use the form below:</p>
+<div class="form-fields">
+<p><input type="text" name="name" placeholder="Enter your name" required></p>
+<p><input type="email" name="email" placeholder="Enter your email" required></p>
+<p><input type="radio" name="type" value="mistake" id="mistake" required><label for="mistake">Mistake</label></p>
+<p><input type="radio" name="type" value="suggestion" id="suggestion" required><label for="suggestion">Suggestion</label></p>
+<p><input type="radio" name="type" value="other" id="other" required><label for="other">Other</label></p>
+<p><textarea name="message" placeholder="Your message" required></textarea></p>
+
+</div>
+
+<!-- Set up captcha -->
+<!-- Go to https://www.google.com/recaptcha/admin -->
+<!-- Create a new v3 enterprise recaptcha site key -->
+<!-- enter domain: nasiratif.net -->
+<!-- Copy SITE KEY and paste it in data-sitekey -->
+<p><input class="g-recaptcha"
+    data-sitekey="PASTE SITE KEY HERE"
+    data-action='submit'
+    data-callback='onSubmit'
+    type="submit"
+    value="Submit"></p>
+</form>
+
+<p id="footer">© Nāṣir ibn Salīm</p>
+
+<script type="text/javascript" src="/footer.js"></script>
+
+</body>
+</html>
