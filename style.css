@@ -305,6 +305,10 @@ img {
 
 }
 
+form {
+  max-width: 100%;
+}
+
 /* New Contact form styling */
 .contact-form {
  font-family: "default-font";
