@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://nasiratif.net/contact/">
 <link rel="stylesheet" type="text/css" href="/style.css">
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://unpkg.com/@botpoison/browser" async></script>
 <link rel="shortcut icon" type="x-icon" href="/favicon.ico">
 <title>Contact</title>
 </head>
@@ -32,7 +32,7 @@
 </div>
 
 
-<form class="contact-form" action="https://submit-form.com/qDBcdmwD1">
+<form id="form" class="contact-form" action="https://submit-form.com/qDBcdmwD1" data-botpoison-public-key="pk_615991ee-800b-4219-8a0e-fefa007b763a">
 <h1>Contact</h1>
 <p>If you've found any mistakes, or have some suggestions, please use the form below:</p>
 <div class="form-fields">
@@ -42,18 +42,23 @@
 <p><input type="radio" name="type" value="suggestion" id="suggestion" required><label for="suggestion">Suggestion</label></p>
 <p><input type="radio" name="type" value="other" id="other" required><label for="other">Other</label></p>
 <p><textarea name="message" placeholder="Your message" required></textarea></p>
-<p><button type="submit">Submit</button></p>
+<p><button id="submitButton" type="submit">Submit</button></p>
+<!-- utilizing Botpoison -->
+<script>
+    var formElement = document.getElementById("form");
+    var buttonElement = document.getElementById("submitButton");
+    formElement.addEventListener("botpoison-challenge-start", function () {
+      buttonElement.setAttribute("disabled", "disabled");
+    });
+    formElement.addEventListener("botpoison-challenge-success", function () {
+      buttonElement.removeAttribute("disabled");
+    });
+    formElement.addEventListener("botpoison-challenge-error", function () {
+      buttonElement.removeAttribute("disabled");
+    });
+  </script>
 </div>
-
-<!-- temporaily disabled for now
-<p><input class="g-recaptcha"
-    data-sitekey="6LccBakpAAAAAHiILlTtRHPtK5OBptNlD6Akx3Jz"
-    data-action='submit'
-    data-callback='onSubmit'
-    type="submit"
-    value="Submit"></p>
 </form>
--->
 
 <p id="footer">© Nāṣir ibn Salīm</p>
 

@@ -349,11 +349,11 @@ img {
   border: none;
   padding: 15px 20px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .contact-form button:hover {
-  background-color: #161616;
+  background-color: #242424;
 }
 
 .contact-form input[type="submit"] {
