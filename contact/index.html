@@ -43,6 +43,7 @@
 <p><input type="radio" name="type" value="other" id="other" required><label for="other">Other</label></p>
 <p><textarea name="message" placeholder="Your message" required></textarea></p>
 <p><button id="submitButton" type="submit">Submit</button></p>
+<p class="mini">IMPORTANT NOTE: if you get a connection error right after submitting, this is most likely an issue with your internet connection and your message should have been sent anyway.</p>
 <!-- utilizing Botpoison -->
 <script>
     var formElement = document.getElementById("form");
@@ -56,7 +57,7 @@
     formElement.addEventListener("botpoison-challenge-error", function () {
       buttonElement.removeAttribute("disabled");
     });
-  </script>
+</script>
 </div>
 </form>
 
