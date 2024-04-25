@@ -1,2 +1,2 @@
 # nasiratif.github.io
-Site files for Nāṣir ʿAṭif ناصر عاطف Islāmic Blog. Feel free to explore all the files on the website!
+Site files for Nāṣir ʿAṭif نَصِير عاطف Islāmic Blog. Feel free to explore all the files on the website!
