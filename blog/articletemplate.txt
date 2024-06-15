@@ -41,7 +41,12 @@
 
 <img alt="Bismillāhir-Raḥmānir-Raḥīm" class="bismillah" src="/img/bismillah.png">
 
+<p>And Allāh (ﷻ) knows best.</p>
+
 <p>May Allāh bless you, and shukran.</p>
+
+<p class="mini">Sources :</p>
+<p class="mini" id="ft1">1. Footnote 1</p>
 
 <span class="likebtn-wrapper" data-theme="custom" data-btn_size="32" data-icon_l="thmb4-u" data-icon_l_c="#ffffff" data-icon_l_c_v="#b1f4d5" data-icon_d_c_v="#b1f4d5" data-label_c="#ffffff" data-label_c_v="#b1f4d5" data-counter_l_c="#ffffff" data-bg_c="#525252" data-bg_c_v="#7cc89b" data-brdr_c="#424242" data-f_family="Arial" data-label_fs="r" data-counter_fs="b" data-ef_voting="heartbeat" data-identifier="nasiratifE" data-dislike_enabled="false" data-share_enabled="false" data-tooltip_enabled="false" data-i18n_after_like="Unlike" data-i18n_popup_text="Barakallahu Feekum!"></span>
 <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
