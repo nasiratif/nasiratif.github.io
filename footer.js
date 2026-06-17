@@ -1,1 +1,1 @@
-document.getElementById("footer").innerHTML = "© Nasīr ibn Salīm | 1443/1447 AH (all dates are displayed in Hijrī)";
+document.getElementById("footer").innerHTML = "© Nasīr ibn Salīm | 1443/1448 AH (all dates are displayed in Hijrī)";
